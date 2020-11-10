@@ -1,0 +1,415 @@
+header{
+    background: rgb(56, 50, 50);
+    height: 120px;
+line-height:120px;
+background-attachment: fixed;
+}
+header ul li{
+    text-align: right;
+    justify-content: right;
+    align-items: right;
+    color: white;
+    font-size: medium;
+    display: inline-block;
+    list-style: none;
+}
+.h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: white;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+;
+}
+header nav{
+    float: right;
+}
+.logo  img{
+    margin-top: 30px;
+    margin-left: 200px;
+
+}
+header nav ul li a{
+    margin: 10px;
+color: white;
+padding-right: 5px;
+font-size: 22px;
+transition: all  0.5s ease-in-out;
+}
+header nav ul li a:hover
+{
+    color: tomato;
+    font-size: 20px;
+    text-decoration: none;
+}
+.slider
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.slider .img h2 span{
+    color: tomato;
+    font-size: 40px;
+
+}
+.img{
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url("pexels-photo-791942.jpg");
+   background-size: 100% 100%;
+   background-attachment: scroll;
+}
+.slider,ul,li{
+    height: 750px;
+    width: 100%;
+    color: white;
+    margin-top: 5px;
+  }
+.slider ul li h2{
+color: white;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-top: 5px;
+font: large;
+font-size:40px;
+margin-left: 500px;
+
+}
+.slider ul li p{
+    font-size: 20px;
+    margin-left: 400px;
+
+}
+.slider ul li a{
+    text-decoration: none;
+
+}
+.slider ul li .a1{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border-block: inherit;
+    box-sizing: border-box;
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 570px;
+    margin-top: 50px;
+    float: left;
+    transition: all 1s ease-in;
+}
+.slider ul li .a2{
+    width: 100px;
+    height: 35px;
+    box-sizing: border-box;
+    background: coral;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 700px;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+.slider ul li .a2 :hover{
+color: white;
+}
+.slider ul li .a1 :hover{
+    color: white;
+}
+.work{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 750px;
+    
+}
+.work h1{
+
+    font-size: 35px;
+}
+.work p{
+    margin-left:500px ;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Helo{
+    box-sizing: border-box;
+    width: 450px;
+    height: 300px;
+    float:left;
+    background: rgba(0,0,0,0.1);
+    padding: 10px;
+    border: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: rgba(0,0,0,0.3);
+padding-top: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#helo
+{
+    margin-left: 100px;
+}
+.work div span{
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.work div p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.image img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+.fxed{
+box-sizing: border-box;
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 300px;
+margin-right: 5px;
+margin-left: 200px;
+margin-bottom: 5px;
+float: left;
+border-bottom: solid;
+border-color: white;
+color: white;
+}
+.xed{
+box-sizing: border-box;
+width: 250px;
+height: 300px; 
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-bottom: 5px;
+float: left;
+border-left: solid;
+border-bottom: white;
+border-color: white;
+color: white;
+}
+ .ed{
+    box-sizing: border-box;
+    text-align: center;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 300px;
+margin-left: 200px;
+border-color: white;
+color: white;
+}
+.fd{
+box-sizing: border-box;
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 250px;
+height: 300px;
+margin-left: -250px;
+float: left;
+border-left: solid;
+border-top: solid;
+border-color: white;
+color: white;
+}
+.k span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.k h1{
+    
+font-size: 35px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.k{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)),url("pexels-photo-3772226.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 750px;
+    width: 100%;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.mobile{
+    
+    justify-content: center;
+    align-items: center; 
+    height: 850px;
+    width: 100%;
+}
+.mobile h1{
+    font-size: 35px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+
+}
+.mobile p{
+    text-align: center;
+}
+.mobile .pic{
+    float: left;
+    width: 100%;
+    }
+.mobile #img{
+margin-left: 100px;
+border-radius: 5px;
+float: left;
+margin-right: 200px;
+}
+.mobile img{
+    float: left;
+}
+.mobile h2{
+    color: blue;
+    font-weight: bold;
+    font-size :25px;;
+}
+.clients{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url("pexels-photo-2025870.jpg");
+    background-size: 100% 100%;
+    height: 750px;
+    width: 100%;
+    color: white;
+}
+.clients h2{
+    font-size: 35px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+
+}
+.clients p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div{
+    height: 750px;
+    width: 100%;
+    
+}
+.div .team{
+    box-sizing: border-box;
+    width: 250px;
+    height: 300px;
+    background-color: rgba(0,0,0,0.1);
+float: left;
+margin-right: 30px;
+align-items: center;
+place-items: center;
+border-radius: 5px;
+margin-top: 30px;
+}
+.div div p{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Team{
+    margin-left: 250px;
+}
+.div {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.download{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("pexels-photo-2025870.jpg");
+    background-size: 100% 100%;
+    height: 650px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.download button{
+    background-color: yellow;
+
+}
+.cont img{
+    float: left;
+}
+.clients .imcl {
+justify-items: center;
+align-items: center;
+text-align: center;
+}
+.clients .imcl img{
+    border-radius: 100%;
+}
+.download h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tm{
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.cont{
+    height: 750px;
+    width: 100%;
+    text-align: center;
+    
+}
+.cont h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text{
+    width: 450px;
+    height: 50px;
+    margin-right: 50px;
+    background-color: lightblue;
+}
+.textarea{
+    margin-bottom: 20px;
+    background-color: lightblue;
+
+}
+.querry{
+    width: 500px;
+    height: 40px;
+
+}
+.cont h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.fa{
+    box-sizing: border-box;
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+.Incisors{
+    color: black;
+    height: 20px;
+    width: 100%;
+}
+.Premolar{
+    color: black;
+    height: 20px;
+    width: 100%;
+}
